@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Antique Olive', 'Arial Rounded MT Bold', 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    background-color: #21222A;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+nav > img {
+    width: 40px;
+    margin-left: 20px ;
+    margin-right: 20px;
+    
+}
+
+span{
+    color: #61DAFB;
+    font-size: x-large;
+    font-weight: bold;
+    
+}

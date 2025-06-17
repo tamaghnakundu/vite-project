@@ -1,12 +1,11 @@
-import ListGroup from "./components/ListGroup";
+import Main from "./components/Main";
+import Navbar from "./components/Navbar";
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <ListGroup />
-      <ListGroup />
-    </div>
+    <>
+      <Navbar />
+      <Main />
+    </>
   );
 }
-
-export default App;
